@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Nusantara Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="nav-container">
+           
+            <div class="logo">
+                <div class="logo-circle">ND</div>
+                <span class="logo-text">Nusantara Digital</span>
+            </div>
+            
+           
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our-profile">Our Profile</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#headquarter">Our Headquarter</a></li>
+                <li><a href="#message-us">Message Us</a></li>
+            </ul>
+            
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="welcome-name">Hi Wahyu, Welcome To Website</h1>
+            <p class="subtitle">Ini adalah website latihan pertama</p>
+        </div>
+        <img src="https://picsum.photos/id/1015/1366/578" alt="Hero Banner" class="hero-banner">
+    </section>
+
+    
+    <section id="our-profile" class="section">
+        <div class="container">
+            <h2>Our Profile</h2>
+            
+            
+            <div class="profile-banner">
+                <img src="https://picsum.photos/id/201/1200/400" alt="Company Banner">
+                <div class="banner-overlay">
+                    <h3>PT. Nusantara Digital</h3>
+                    <p>Inovasi untuk Indonesia</p>
+                </div>
+            </div>
+            
+          
+            <div class="about-content">
+                <h3>Tentang Perusahaan</h3>
+                <p>PT. Nusantara Digital didirikan pada tahun 2020 dengan visi menjadi pemimpin teknologi informasi di Indonesia. Kami berfokus pada pengembangan website, aplikasi mobile, dan solusi digital yang inovatif. Dengan kantor pusat di Jakarta dan cabang di Bandung serta Surabaya, kami telah melayani lebih dari 50 klien dari berbagai industri.</p>
+            </div>
+            
+            
+            <div class="vision-mission">
+                <div class="vision">
+                    <h4>Visi</h4>
+                    <p>Menjadi perusahaan teknologi terdepan di Indonesia yang memberikan solusi digital terbaik untuk kemajuan bangsa pada tahun 2030.</p>
+                </div>
+                <div class="mission">
+                    <h4>Misi</h4>
+                    <ul>
+                        <li>Memberikan solusi digital inovatif dan berkualitas tinggi</li>
+                        <li>Mengembangkan talenta IT Indonesia melalui pelatihan dan kolaborasi</li>
+                        <li>Membangun kemitraan strategis dengan perusahaan lokal dan internasional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                
+                <div class="portfolio-card">
+                    <img src="https://picsum.photos/id/29/400/300" alt="Proyek 1">
+                    <div class="card-content">
+                        <h4>Aplikasi E-Commerce</h4>
+                        <p>Website belanja online untuk UMKM dengan fitur pembayaran dan tracking real-time.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <img src="https://picsum.photos/id/160/400/300" alt="Proyek 2">
+                    <div class="card-content">
+                        <h4>Sistem Manajemen Sekolah</h4>
+                        <p>Aplikasi web untuk pengelolaan data siswa, nilai, dan jadwal pelajaran.</p>
+                    </div>
+                </div>
+              
+                <div class="portfolio-card">
+                    <img src="https://picsum.photos/id/201/400/300" alt="Proyek 3">
+                    <div class="card-content">
+                        <h4>Platform Banking Digital</h4>
+                        <p>Aplikasi mobile banking dengan keamanan tinggi dan UI/UX modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="headquarter" class="section">
+        <div class="container">
+            <h2>Our Headquarter</h2>
+            <div class="headquarters">
+                
+                <div class="location">
+                    <div class="circle">📍</div>
+                    <p>Jakarta</p>
+                </div>
+                
+                <div class="location">
+                    <div class="circle">📍</div>
+                    <p>Bandung</p>
+                </div>
+                
+                <div class="location">
+                    <div class="circle">📍</div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="message-us" class="section bg-light">
+        <div class="container">
+            <h2>Message Us</h2>
+            <div class="message-grid">
+                
+                <form id="message-form" class="message-form">
+                    <div class="form-group">
+                        <label for="name">Nama :</label>
+                        <input type="text" id="name" placeholder="Nama" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="birthdate">Tanggal Lahir :</label>
+                        <input type="date" id="birthdate" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Jenis Kelamin :</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+                            <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Pesan :</label>
+                        <textarea id="message" placeholder="Pesan" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+                
+               
+                <div class="result-box" id="result-box">
+                    <h3>Current time : <span id="curr-time">-</span></h3>
+                    <p><strong>Nama :</strong> <span id="res-name">-</span></p>
+                    <p><strong>Tanggal Lahir :</strong> <span id="res-birth">-</span></p>
+                    <p><strong>Jenis Kelamin :</strong> <span id="res-gender">-</span></p>
+                    <p><strong>Pesan :</strong> <span id="res-pesan">-</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PT. Nusantara Digital - Website Latihan Pertama. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
